@@ -1,6 +1,7 @@
 import "./App.css";
 import About from "./components/About";
 import Alert from "./components/Alert";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import TextForm from "./components/TextForm";
 import { useState, useEffect } from "react";
@@ -55,6 +56,7 @@ function App() {
             {/* <Route path="/*" element=<NoPage/> /> */}
           </Routes>
         </div>
+        <Footer />
       </Router>
     </>
   );
