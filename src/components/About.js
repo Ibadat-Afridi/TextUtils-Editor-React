@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 export default function About(props) {
   const mystyle = {
@@ -35,14 +35,8 @@ export default function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={mystyle}>
-              This is the first item's accordion body. It is shown by default,
-              until the collapse plugin adds the appropriate classes that we use
-              to style each element. These classes control the overall
-              appearance, as well as the showing and hiding via CSS transitions.
-              You can modify any of this with custom CSS or overriding our
-              default variables. It's also worth noting that just about any HTML
-              can go within the <code>.accordion-body</code>, though the
-              transition does limit overflow.
+              This is a Text Editor which have the ability to Analyze Your Text
+              According to Your Need.
             </div>
           </div>
         </div>
@@ -66,14 +60,7 @@ export default function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={mystyle}>
-              This is the second item's accordion body. It is hidden by default,
-              until the collapse plugin adds the appropriate classes that we use
-              to style each element. These classes control the overall
-              appearance, as well as the showing and hiding via CSS transitions.
-              You can modify any of this with custom CSS or overriding our
-              default variables. It's also worth noting that just about any HTML
-              can go within the <code>.accordion-body</code>, though the
-              transition does limit overflow.
+              This is a Completely free Text Editing Tool Build for Student.
             </div>
           </div>
         </div>
@@ -97,14 +84,8 @@ export default function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={mystyle}>
-              This is the third item's accordion body. It is hidden by default,
-              until the collapse plugin adds the appropriate classes that we use
-              to style each element. These classes control the overall
-              appearance, as well as the showing and hiding via CSS transitions.
-              You can modify any of this with custom CSS or overriding our
-              default variables. It's also worth noting that just about any HTML
-              can go within the <code>.accordion-body</code>, though the
-              transition does limit overflow.
+              Text-Utils is a browser capable text editor which is executable in
+              almost every browser you use in your daily life.
             </div>
           </div>
         </div>
