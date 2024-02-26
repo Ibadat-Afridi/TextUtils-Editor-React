@@ -8,6 +8,7 @@ import { useState, useEffect } from "react";
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   let [Mode, setMode] = useState("light");
@@ -60,6 +61,7 @@ function App() {
         <Footer />
       </Router>
       <Analytics />
+      <SpeedInsights />
     </>
   );
 }
