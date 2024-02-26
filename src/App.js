@@ -7,6 +7,7 @@ import TextForm from "./components/TextForm";
 import { useState, useEffect } from "react";
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   let [Mode, setMode] = useState("light");
@@ -58,6 +59,7 @@ function App() {
         </div>
         <Footer />
       </Router>
+      <Analytics />
     </>
   );
 }
